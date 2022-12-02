@@ -10,7 +10,7 @@ while( item < list.length){
 
     list_item.innerText = list[item];
 
-    list_item.classList.add('list-class');
+    list_item.classList.add('list-class', 'animate__headShake');
 
     list_container.append(list_item);
 

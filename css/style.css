@@ -1,0 +1,40 @@
+.container{
+    width: 22em;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    outline: 2px solid black;
+}
+
+.shopping-list{
+    padding:0px;
+    list-style-type: none;
+}
+
+.col{
+    border-radius: 1em;
+    margin: 1em;
+    background-color: rgb(223, 125, 33);
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-class{
+    font-style: italic;
+    text-align: center;
+    color: rgb(210, 166, 255);
+    padding: .5em 0em;
+    border-bottom: 1px dashed black;
+    font-weight:bold;
+    font-size: 30px;
+}
+
+
+.list-class:hover{
+    cursor: pointer;
+    color: white;
+}

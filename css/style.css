@@ -40,11 +40,11 @@ h1{
 .list-class{
     font-style: italic;
     text-align: center;
-    color: rgb(210, 166, 255);
+    color: rgb(255, 255, 255);
     padding: .3em 0em;
     border-bottom: 1px dashed black;
-    font-weight:bold;
-    font-size: 30px;
+    font-weight: 500;
+    font-size: 25px;
 }
 
 
